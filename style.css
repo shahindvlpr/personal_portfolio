@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i&display=swap&subset=latin-ext,vietnamese');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #888888;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Cabin', sans-serif;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+input [type="button"]:focus,
+input [type="checkbox"]:focus,
+input [type="email"]:focus,
+input [type="number"]:focus,
+input [type="password"]:focus,
+input [type="radio"]:focus,
+input [type="reset"]:focus,
+input [type="search"]:focus,
+input [type="submit"]:focus,
+input [type="tel"]:focus,
+input [type="text"]:focus,
+textarea:focus{
+	outline: none;
+}
+button:focus{
+    outline: none;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 115px;
+}
+.container-fluid{
+    max-width: 100%;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.container-max{
+    max-width: 100%;
+    max-height: 100%;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-max{
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.align-item-center{
+    align-self: center;
+}
+
+/*body area start..................*/
+
+section.header {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 85px 0px;
+}
+
+.single-header-item {
+    width: 50%;
+    float: left;
+}
+.header-text-area {
+    padding-top: 105px;
+    margin: 0 15px;
+}
+
+.header-text-area h1 {
+    color: #282C30;
+    font-size: 40px;
+}
+.header-text-area h1 span {
+    display: block;
+    color: #EC4C7A;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.header-text-area p {
+    color: #676767;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.header-text-area button {
+    padding: 15px 39px;
+    border: none;
+    border-radius: 5px;
+    background: #EC4F8F;
+    display: block;
+}
+
+.header-text-area button a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    cursor: pointer;
+}
+.header-text-area button:hover a {
+    color: black;
+    transition: .8s all;
+}
+
+/*Header area end.............*/
+
+/*Biography area start...................*/
+
+section.biography-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 100px 0px;
+}
+
+.biography-text-area {
+    padding-left: 75px;
+    padding-top: 135px;
+}
+.biography-text-area h1 {
+    color: #14181C;
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+
+.biography-text-area p {
+    color: #858586;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.biography-text-area button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background: #EC4D83;
+}
+.biography-text-area a {
+    color: #fff;
+    display: block;
+}
+
+.biography-text-area button:hover a {
+    color: black;
+    transition: .8s all;
+}
+
+
+/*Biography area end...................*/
+
+/*letest work area end...................*/
+section.letest-work-area {
+    padding: 80px 0;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.letest-header {
+    padding-bottom: 40px;
+    display: block;
+}
+
+.letest-header h1 {
+    text-align: center;
+    color: #1A1E22;
+    font-size: 30px;
+}
+.latest-single-image {
+    width: 33.33%;
+    float: left;
+}
+
+.latest-single-image img {
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+}
+
+/*letest work area end...................*/
+/*footer area start.............*/
+section.footer-area {
+    padding: 80px 0;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.footer-content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content h1 {
+    color: #1D2125;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.footer-content h3 {
+    color: #1B1F24;
+}
+p.ceo {
+    color: #707070;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+p.quatation_text {
+    color: #242424;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.footer-gmail-area {
+    background: #EC4D84;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer-gmail-area {
+    background: #EC4D84;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer-gmail-area p {
+    font-size: 14px;
+}
+
+p.gmail {
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+section.footer {
+    padding: 10px 0;
+}
+p.footer-text {
+    color: #696969;
+    font-size: 15px;
+}
+.footer {
+    margin: 0 auto;
+}
+p.footer-text span {
+    color: #EC4D84;
+    font-weight: 800;
+}
+
+/*footer area end.............*/
